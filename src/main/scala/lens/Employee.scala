@@ -6,4 +6,4 @@ case class Address(street: Street)
 
 case class Company(address: Address)
 
-case class Employee(company: Company)
+case class Employee(name: String, company: Company)
